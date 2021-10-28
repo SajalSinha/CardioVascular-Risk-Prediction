@@ -1,4 +1,5 @@
 # PROBLEM STATEMENT:
+![human-circulatory-system-cardiovascular-heart-260nw-1802153194](https://user-images.githubusercontent.com/79034119/139299773-6f38b02b-edd3-4840-aa49-4ba525a45dda.jpeg)
 
 The dataset is from an ongoing cardiovascular study on residents of the town of Framingham,Massachusetts. The classification goal is to predict whether the patient has a 10-year risk of future coronary heart disease (CHD). The dataset provides the patients’ information. It includes over 4,000 records and 15 attributes.
 
@@ -32,17 +33,40 @@ on various behavioural trait, medical history etc.
 **Decision Tree Classifier=83.86%**
 
 **Random Forest Classifier=83.27%**
+![download](https://user-images.githubusercontent.com/79034119/139300549-9398a5e8-3e89-4171-b7d2-575d24762bad.png)
+
+
+
+
+
+
+![download (1)](https://user-images.githubusercontent.com/79034119/139300623-c4d93e86-9687-42c5-b042-2696e285c39a.png)
+
+
+
+
+
+
+![download (2)](https://user-images.githubusercontent.com/79034119/139300648-d324f92e-179f-41b7-809d-1a68dc2dbd0c.png)
 
 ## 4. Conclusion:
 • Logistic Regression got better result than any model.
+
 • Highest Number of cigratte smoked in a day is 50.
+
 • Males consume more cigrattes than females in a day.
+
 • People with less education are more prone to have heart disease after 10
 years.
+
 • People with less education are more prone to get addicted to smoking.
+
 • More males are suffering from diabetes than female.
+
 • Those who have high BP are more prone to heart disease.
+
 • Those who have low BP are less prone to heart disease.
+
 • Non- diabetic people smokes more
 
 **Some measures that can be taken to prevent Heart disease includes:**
