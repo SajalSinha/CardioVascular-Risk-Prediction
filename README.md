@@ -1,9 +1,9 @@
-# PROBLEM STATEMENT:
-![human-circulatory-system-cardiovascular-heart-260nw-1802153194](https://github.com/SajalSinha/CardioVascular-Risk-Prediction/blob/main/molecules-26-03506-g001.png)
 
+![human-circulatory-system-cardiovascular-heart-260nw-1802153194](https://github.com/SajalSinha/CardioVascular-Risk-Prediction/blob/main/molecules-26-03506-g001.png)
+# Problem Statement:
 The dataset is from an ongoing cardiovascular study on residents of the town of Framingham,Massachusetts. The classification goal is to predict whether the patient has a 10-year risk of future coronary heart disease (CHD). The dataset provides the patients’ information. It includes over 4,000 records and 15 attributes.
 
-## 1.INTRODUCTION:
+## 1.Introduction:
 A lot of people suffer from various diseases. Some diseases like Sugar, High BP,
 Diabetes etc have become very common in our society. On an average around 30%
 youth in each state has its BMI greater than 25, which is considered as obsess. This
@@ -12,7 +12,7 @@ heart diseases in future. So, our model is aim to classify people goal is to pre
 whether the patient has a 10-year risk of future coronary heart disease which is based
 on various behavioural trait, medical history etc.
 
-## 2. METHODOLOGY:
+## 2. Methodology:
 1. Data Cleaning (Outlier detection, Checking Null Values)
 2. Exploratory Data Analysis
 3. Data Processing ( Scaling and Feature Selection)
@@ -20,7 +20,7 @@ on various behavioural trait, medical history etc.
 5. Model Training - Used various Models
 6. Evaluation Metrics
 
-## 3. Accuracy of different models:
+## 3. Evaluation Metrics:
 **k fold Cross Val Score**
 **logistic=85.01%**
 
