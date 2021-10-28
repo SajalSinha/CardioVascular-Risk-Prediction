@@ -1,53 +1,55 @@
-# CardioVascular-Risk-Prediction
-The dataset is from an ongoing cardiovascular study on residents of the town of Framingham,
-Massachusetts. The classification goal is to predict whether the patient has a 10-year risk of
-future coronary heart disease (CHD). The dataset provides the patients’ information. It includes
-over 4,000 records and 15 attributes.
-Variables
-Each attribute is a potential risk factor. There are both demographic, behavioral, and medical risk
-factors.
+# PROBLEM STATEMENT:
 
-Data Description
+The dataset is from an ongoing cardiovascular study on residents of the town of Framingham,Massachusetts. The classification goal is to predict whether the patient has a 10-year risk of future coronary heart disease (CHD). The dataset provides the patients’ information. It includes over 4,000 records and 15 attributes.
 
-Demographic:
+## 1.INTRODUCTION:
+A lot of people suffer from various diseases. Some diseases like Sugar, High BP,
+Diabetes etc have become very common in our society. On an average around 30%
+youth in each state has its BMI greater than 25, which is considered as obsess. This
+small things which sometimes aren’t considered much as threat lay foundation to major
+heart diseases in future. So, our model is aim to classify people goal is to predict
+whether the patient has a 10-year risk of future coronary heart disease which is based
+on various behavioural trait, medical history etc.
 
-• Sex: male or female("M" or "F")
+## 2. METHODOLOGY:
+1. Data Cleaning (Outlier detection, Checking Null Values)
+2. Exploratory Data Analysis
+3. Data Processing ( Scaling and Feature Selection)
+4. Data Splitting
+5. Model Training - Used various Models
+6. Evaluation Metrics
 
-• Age: Age of the patient;(Continuous - Although the recorded ages have been truncated to
-whole numbers, the concept of age is continuous)
+## 3. Accuracy of different models:
+**k fold Cross Val Score**
+**logistic=85.01%**
 
-Behavioral
+**KNN =84.07%**
 
-• is_smoking: whether or not the patient is a current smoker ("YES" or "NO")
+**Gaussian Naive Bayes=83.22%**
 
-• Cigs Per Day: the number of cigarettes that the person smoked on average in one day.(can be
-considered continuous as one can have any number of cigarettes, even half a cigarette.)
+**SVC=84.93%**
 
-Medical( history)
+**Decision Tree Classifier=83.86%**
 
-• BP Meds: whether or not the patient was on blood pressure medication (Nominal)
+**Random Forest Classifier=83.27%**
 
-• Prevalent Stroke: whether or not the patient had previously had a stroke (Nominal)
+## 4. Conclusion:
+• Logistic Regression got better result than any model.
+• Highest Number of cigratte smoked in a day is 50.
+• Males consume more cigrattes than females in a day.
+• People with less education are more prone to have heart disease after 10
+years.
+• People with less education are more prone to get addicted to smoking.
+• More males are suffering from diabetes than female.
+• Those who have high BP are more prone to heart disease.
+• Those who have low BP are less prone to heart disease.
+• Non- diabetic people smokes more
 
-• Prevalent Hyp: whether or not the patient was hypertensive (Nominal)
-
-• Diabetes: whether or not the patient had diabetes (Nominal)
-
-Medical(current)
-
-• Tot Chol: total cholesterol level (Continuous)
-
-• Sys BP: systolic blood pressure (Continuous)
-
-• Dia BP: diastolic blood pressure (Continuous)
-
-• BMI: Body Mass Index (Continuous)
-
-• Heart Rate: heart rate (Continuous - In medical research, variables such as heart rate though in
-fact discrete, yet are considered continuous because of large number of possible values.)
-
-• Glucose: glucose level (Continuous)
-
-Predict variable (desired target)
-• 10-year risk of coronary heart disease CHD(binary: “1”, means “Yes”, “0” means “No”) -
-DV
+**Some measures that can be taken to prevent Heart disease includes:**
+1. No smoking
+2. Maintain Healthy daily life.
+3. BMI should be checked regularly inorder to have a note of ourselves.
+4. As we get older, selection of food must be done properly, so that one can
+control cholesterol, glucose etc.
+5. Having proper cardio routine should be must. Yoga, walking or jogging are
+good enough.
